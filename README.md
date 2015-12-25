@@ -5,7 +5,7 @@ A simple canvas based rating bar. Simple and ALLEGIANT in look.
 ![CanvasRatingbar Screenshot](/screenshots/Screenshot_2015-12-24-18-34-33.png)
 
 ### How to add
-CanvasRatingBar is published with JitPack.io. To add this library to your project, add these lines to your build.gradle
+CanvasRatingBar is published with JitPack.io. To add this library to your project, add these lines to your build.gradle (Top-level build file)
 ```
 repositories {
         jcenter()
@@ -13,6 +13,9 @@ repositories {
             url 'https://dl.bintray.com/angtwr31/maven';
         }
     }
+```
+and add these lines to your build.gradle (App-level build file)
+```
 dependencies {
   compile 'com.angtwr31.library:canvasratingbar:0.0.1'
 }
