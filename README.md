@@ -26,3 +26,15 @@ dependencies {
         app:halfStarEnable="true"
         app:fillColor="@android:color/holo_red_light"/>
 ```
+> *maxStars* is the Integer value of the max rating stars
+
+> *ratingValue* is the default value set for rating stars
+
+> *halfStarEnable* == true enable the half rating
+
+*if any issue found in this library .. you can open the issues on this github repository*
+
+*althought the library is still underprogress*
+
+*i'm working on some minor fixes*
+```
