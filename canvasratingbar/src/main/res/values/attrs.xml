@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CanvasRatingBar">
+        <attr name="maxStars" format="integer" />
+        <attr name="starMargin" format="integer" />
+        <attr name="fillColor" format="color" />
+        <attr name="halfStarEnable" format="boolean" />
+        <attr name="ratingValue" format="float" />
+    </declare-styleable>
+
+</resources>
