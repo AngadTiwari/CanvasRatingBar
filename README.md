@@ -8,8 +8,11 @@ A simple canvas based rating bar. Simple and ALLEGIANT in look.
 CanvasRatingBar is published with JitPack.io. To add this library to your project, add these lines to your build.gradle
 ```
 repositories {
-  maven { url "https://jitpack.io" }
-}
+        jcenter()
+        maven {
+            url 'https://dl.bintray.com/angtwr31/maven';
+        }
+    }
 dependencies {
   compile 'com.angtwr31.library:canvasratingbar:0.0.1'
 }
